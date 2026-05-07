@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تواصل معنا — طموح</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button class="menu-btn" id="menuBtn">☰</button>
+<div class="menu-overlay" id="menuOverlay"></div>
+
+<aside class="menu" id="menu">
+  <div class="logo">
+    <img src="images/LOGO.png" alt="شعار طموح" class="logo-img">
+  </div>
+  <nav class="nav">
+    <a href="index.html">🏠 الرئيسية</a>
+    <a href="projects.html">🌆 المشاريع</a>
+    <a href="seasonal.html">🌅 مشاريع الأفق</a>
+    <a href="contact.html">📬 تواصل معنا</a>
+    <a href="designer.html">👩‍💻 فريق العمل</a>
+  </nav>
+</aside>
+
+<main class="main">
+  <section class="contact">
+    <div class="section-header">
+      <h2>شاركنا رؤيتك</h2>
+      <p>للاستفسارات والملاحظات حول المحتوى</p>
+    </div>
+
+    <div class="contact-box">
+      <form class="contact-form" action="https://formspree.io/f/mwvaglzj" method="POST">
+        <div class="input-group">
+          <label>الاسم الكامل</label>
+          <input type="text" name="name" placeholder="أدخل اسمك" required>
+        </div>
+        <div class="input-group">
+          <label>البريد الإلكتروني</label>
+          <input type="email" name="email" placeholder="example@email.com" required>
+        </div>
+        <div class="input-group">
+          <label>رسالتك</label>
+          <textarea name="message" rows="5" placeholder="اكتب رسالتك..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-green">✉️ إرسال</button>
+      </form>
+
+      <div class="contact-info">
+        <div class="info-item">
+          <span class="info-icon">📍</span>
+          <div><h4>العنوان</h4><p>مكة، السعودية</p></div>
+        </div>
+        <div class="info-item">
+          <span class="info-icon">📧</span>
+          <div><h4>البريــــد</h4><p>programmingfriends76@gmail.com</p></div>
+        </div>
+        <div class="info-item">
+          <span class="info-icon">📱</span>
+          <div><h4>الهاتف</h4><p>+966 553742259</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-brand">طم<span>و</span>ح</div>
+    <p class="footer-text">موقع يوثق مشاريع رؤية 2030</p>
+    <div class="footer-links">
+      <a href="index.html">🏠 الرئيسية</a>
+      <a href="projects.html">🌆 المشاريع</a>
+      <a href="seasonal.html">🌅 مشاريع الأفق</a>
+      <a href="contact.html">📬 تواصل معنا</a>
+      <a href="designer.html">👩‍💻 فريق العمل</a>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 طموح — يعانق السماء</p>
+      <p>تصميم: جنى - شهد - لارا - ريم - علا</p>
+    </div>
+  </footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

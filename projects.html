@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>المشاريع — طموح</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button class="menu-btn" id="menuBtn">☰</button>
+<div class="menu-overlay" id="menuOverlay"></div>
+
+<aside class="menu" id="menu">
+  <div class="logo">
+    <img src="images/LOGO.png" alt="شعار طموح" class="logo-img">
+  </div>
+  <nav class="nav">
+    <a href="index.html">🏠 الرئيسية</a>
+    <a href="projects.html">🌆 المشاريع</a>
+    <a href="seasonal.html">🌅 مشاريع الأفق</a>
+    <a href="contact.html">📬 تواصل معنا</a>
+    <a href="designer.html">👩‍💻 فريق العمل</a>
+  </nav>
+</aside>
+
+<main class="main">
+  <section class="projects">
+    <div class="section-header">
+      <h2>أضخم المشاريع السعودية</h2>
+      <p>اضغط على أي مشروع لرؤية الصورة</p>
+    </div>
+
+    <div class="projects-grid">
+      <div class="card" data-image="images/EnergyCity.jpg">
+        <div class="card-icon">🏭</div>
+        <h3>مدينة الملك سلمان للطاقة</h3>
+        <div>📍 الدمام</div>
+        <span class="card-status">🚧 قيد البناء</span>
+      </div>
+      <div class="card" data-image="images/AL.jpg">
+        <div class="card-icon">🏝️</div>
+        <h3>مشروع السودة للتطوير</h3>
+        <div>📍 عسير</div>
+        <span class="card-status">🚧 قيد التطوير</span>
+      </div>
+      <div class="card" data-image="images/KingSalmanPark.jpeg">
+        <div class="card-icon">🎡</div>
+        <h3>حديقة الملك سلمان</h3>
+        <div>📍 الرياض</div>
+        <span class="card-status">✅ قيد الإنشاء</span>
+      </div>
+      <div class="card" data-image="images/GreenRiyadh.jpg">
+        <div class="card-icon">🌿</div>
+        <h3>الرياض الخضراء</h3>
+        <div>📍 الرياض</div>
+        <span class="card-status">🚧 قيد البناء</span>
+      </div>
+      <div class="card" data-image="images/Amala.jpeg">
+        <div class="card-icon">⛲️</div>
+        <h3>مشروع أمالا</h3>
+        <div>📍 تبوك</div>
+        <span class="card-status">🚧 قيد البناء</span>
+      </div>
+      <div class="card" data-image="images/RedSea.jpg">
+        <div class="card-icon">🌊</div>
+        <h3>مشروع البحر الأحمر</h3>
+        <div>📍 أملج</div>
+        <span class="card-status">✅ قيد الإنجاز</span>
+      </div>
+      <div class="card" data-image="images/HydrogenNeom.jpg">
+        <div class="card-icon">🔋</div>
+        <h3>نيوم للهيدروجين الأخضر</h3>
+        <div>📍 نيوم</div>
+        <span class="card-status">✅ قيد الإنجاز</span>
+      </div>
+      <div class="card" data-image="images/AlUla.jpg">
+        <div class="card-icon">🌄</div>
+        <h3>منتجع العلا الجبلي</h3>
+        <div>📍 العلا</div>
+        <span class="card-status">🚧 قيد البناء</span>
+      </div>
+    </div>
+  </section>
+
+  <div id="modal" class="modal">
+    <span class="modal-close">&times;</span>
+    <div class="modal-content">
+      <img id="modalImage" src="" alt="صورة المشروع">
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-brand">طم<span>و</span>ح</div>
+    <p class="footer-text">موقع يوثق مشاريع رؤية 2030</p>
+    <div class="footer-links">
+      <a href="index.html">🏠 الرئيسية</a>
+      <a href="projects.html">🌆 المشاريع</a>
+      <a href="seasonal.html">🌅 مشاريع الأفق</a>
+      <a href="contact.html">📬 تواصل معنا</a>
+      <a href="designer.html">👩‍💻 فريق العمل</a>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 طموح — يعانق السماء</p>
+      <p>تصميم: جنى - شهد - لارا - ريم - علا</p>
+    </div>
+  </footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

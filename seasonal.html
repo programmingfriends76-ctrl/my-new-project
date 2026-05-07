@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مشاريع الأفق — طموح</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button class="menu-btn" id="menuBtn">☰</button>
+<div class="menu-overlay" id="menuOverlay"></div>
+
+<aside class="menu" id="menu">
+  <div class="logo">
+    <img src="images/LOGO.png" alt="شعار طموح" class="logo-img">
+  </div>
+  <nav class="nav">
+    <a href="index.html">🏠 الرئيسية</a>
+    <a href="projects.html">🌆 المشاريع</a>
+    <a href="seasonal.html">🌅 مشاريع الأفق</a>
+    <a href="contact.html">📬 تواصل معنا</a>
+    <a href="designer.html">👩‍💻 فريق العمل</a>
+  </nav>
+</aside>
+
+<main class="main">
+  <section class="horizon">
+    <div class="section-header">
+      <h2>بأيدٍ سعودية.. تُشيَّد الآن</h2>
+      <p>أربعة مشاريع تاريخية تعيد رسم خريطة السياحة</p>
+    </div>
+
+    <div class="tabs">
+      <button class="tab" data-tab="theline">🏙️ ذا لاين</button>
+      <button class="tab" data-tab="qiddiya">🎡 القدية</button>
+      <button class="tab" data-tab="trojena">⛷️ تروجينا</button>
+      <button class="tab" data-tab="murabba">🏗️ المربع الجديد</button>
+    </div>
+
+    <div class="panels">
+      <div class="panel active" id="panel-theline">
+        <div class="panel-img"><img src="images/TheLine.jpg" alt="ذا لاين"><span class="badge">يُفتح 2030</span></div>
+        <div class="panel-text">
+          <span>نيوم - تبوك</span>
+          <h3>ذا لاين</h3>
+          <p>مدينة خطية بطول 170 كيلومترًا وعرض 200 متر فقط، تعمل بالطاقة المتجددة 100%. تستوعب مليون ساكن بدون سيارات ولا انبعاثات كربونية. تضم مرافق تعليمية وصحية وترفيهية ضمن مسافة 5 دقائق سيرًا من أي نقطة في المدينة.</p>
+          <div class="countdown" data-date="2030-01-01">
+            <p class="countdown-label">الوقت المتبقي</p>
+            <div class="countdown-box">
+              <div><span id="days-theline">---</span><span>يوم</span></div>
+              <div><span id="hours-theline">--</span><span>ساعة</span></div>
+              <div><span id="mins-theline">--</span><span>دقيقة</span></div>
+              <div><span id="secs-theline">--</span><span>ثانية</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel" id="panel-qiddiya">
+        <div class="panel-img"><img src="images/Qiddiya.jpg" alt="القدية"><span class="badge">يُفتح 2027</span></div>
+        <div class="panel-text">
+          <span>الرياض - جنوب غرب</span>
+          <h3>القدية</h3>
+          <p>مدينة الترفيه والرياضة والثقافة على مساحة 334 كيلومترًا مربعًا. تضم حلبة فورمولا 1، وأكبر حديقة ألعاب في العالم، وملاعب رياضية دولية، وأكاديميات فنون ومراكز إبداعية متعددة. الافتتاح الأول 2027.</p>
+          <div class="countdown" data-date="2027-06-01">
+            <p class="countdown-label">الوقت المتبقي</p>
+            <div class="countdown-box">
+              <div><span id="days-qiddiya">---</span><span>يوم</span></div>
+              <div><span id="hours-qiddiya">--</span><span>ساعة</span></div>
+              <div><span id="mins-qiddiya">--</span><span>دقيقة</span></div>
+              <div><span id="secs-qiddiya">--</span><span>ثانية</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel" id="panel-trojena">
+        <div class="panel-img"><img src="images/Trogena.jpg" alt="تروجينا"><span class="badge">يُفتح 2026</span></div>
+        <div class="panel-text">
+          <span>نيوم - الجبال</span>
+          <h3>تروجينا</h3>
+          <p>منتجع جبلي على ارتفاع 2600 متر، أول محطة تزلج في منطقة الشرق الأوسط وشمال أفريقيا. يضم بحيرة صناعية، فنادق فاخرة، قرى جبلية، وملعب جولف. سيستضيف الألعاب الآسيوية الشتوية 2029.</p>
+          <div class="countdown" data-date="2026-12-01">
+            <p class="countdown-label">الوقت المتبقي</p>
+            <div class="countdown-box">
+              <div><span id="days-trojena">---</span><span>يوم</span></div>
+              <div><span id="hours-trojena">--</span><span>ساعة</span></div>
+              <div><span id="mins-trojena">--</span><span>دقيقة</span></div>
+              <div><span id="secs-trojena">--</span><span>ثانية</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="panel" id="panel-murabba">
+        <div class="panel-img"><img src="images/Thecube.jpg" alt="المربع الجديد"><span class="badge">يُفتح 2030</span></div>
+        <div class="panel-text">
+          <span>الرياض - وسط المدينة</span>
+          <h3>المربع الجديد</h3>
+          <p>مشروع حضري متكامل في قلب العاصمة الرياض، يضم معلم "المكعب" الأيقوني، مركز مؤتمرات، فندق فاخر، متحف للفنون، مناطق سكنية وتجارية، ومساحات خضراء واسعة. يهدف لأن يكون وجهة عالمية للثقافة والترفيه.</p>
+          <div class="countdown" data-date="2030-01-01">
+            <p class="countdown-label">الوقت المتبقي</p>
+            <div class="countdown-box">
+              <div><span id="days-murabba">---</span><span>يوم</span></div>
+              <div><span id="hours-murabba">--</span><span>ساعة</span></div>
+              <div><span id="mins-murabba">--</span><span>دقيقة</span></div>
+              <div><span id="secs-murabba">--</span><span>ثانية</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-brand">طم<span>و</span>ح</div>
+    <p class="footer-text">موقع يوثق مشاريع رؤية 2030</p>
+    <div class="footer-links">
+      <a href="index.html">🏠 الرئيسية</a>
+      <a href="projects.html">🌆 المشاريع</a>
+      <a href="seasonal.html">🌅 مشاريع الأفق</a>
+      <a href="contact.html">📬 تواصل معنا</a>
+      <a href="designer.html">👩‍💻 فريق العمل</a>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 طموح — يعانق السماء</p>
+      <p>تصميم: جنى - شهد - لارا - ريم - علا</p>
+    </div>
+  </footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
