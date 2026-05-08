@@ -107,3 +107,4 @@ if (audioBtn && bgAudio) {
     }
   };
 }
+//document.body.onclick=()=>{let a=document.getElementById('bgAudio');a&&a.paused&&a.play()}//
